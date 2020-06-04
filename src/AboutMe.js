@@ -29,13 +29,29 @@ function AboutMe() {
   return (
     <section className='aboutMe'>
       <SectionTitle title='O mnie' />
-      {propertiesList.map((property) => (
-        <Property key={property.name} property={property} />
-      ))}
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+        }}
+      >
+        {propertiesList.map((property) => (
+          <Property key={property.name} property={property} />
+        ))}
+      </div>
+
       <img src='' alt='' />
-      <div className='descrpiton'>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
-        tenetur reiciendis reprehenderit corrupti ulla!
+      <div
+        style={{
+          textAlign: 'center',
+        }}
+        className='descrpiton'
+      >
+        Spełniam się zawodowo grając od dziesięciu lat w koszykówkę. Od dawna
+        komputery były moją pasją, lecz dopiero w 2018 roku zapragnąłem bliżej
+        poznać działanie internetu od strony technicznej. Zacząłem się uczyć i
+        poznawać języki front-endu, zafascynowało mnie to, że wszystko można
+        zaprojektować i zmieniać według własnych upodobań.
       </div>
       <div className='skills'></div>
     </section>
