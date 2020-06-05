@@ -1,0 +1,13 @@
+.title {
+  margin: 10px;
+  text-align: center;
+  color: #45474a;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.bar {
+  margin: 0 auto 50px;
+  width: 80px;
+  height: 4px;
+  background-color: #45474a;
+}

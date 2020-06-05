@@ -1,26 +1,10 @@
 import React from 'react';
+import './Header.css';
 
 function Header() {
   return (
-    <header
-      style={{
-        height: '100vh',
-        backgroundAttachment: 'fixed',
-        backgroundImage: 'url(./banner.jpg)',
-        backgroundPositionX: 'center',
-        backgroundSize: 'cover',
-      }}
-    >
-      <div
-        style={{
-          position: 'absolute',
-          width: '100%',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%,-50%)',
-          textAlign: 'center',
-        }}
-      >
+    <header className='header'>
+      <div className='headerText'>
         <h1>Mateusz Bręk</h1>
         <h3>Front-end Developer</h3>
       </div>

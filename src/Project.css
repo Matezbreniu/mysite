@@ -1,0 +1,46 @@
+.projectContainer {
+  margin: 10px 0;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.projectName {
+  width: 100%;
+  margin: 10px;
+}
+
+.projectLinks {
+  display: flex;
+  margin: 15px;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projectDescription {
+  margin: 10px;
+  width: 100%;
+}
+.projectTechnology {
+  width: 100%;
+}
+
+.weatherApp {
+  background: linear-gradient(#1b2632, #6d9bcd);
+  color: white;
+}
+.sportregeneracja {
+  background: url('/sportregeneracjaBackground.jpg') center;
+  background-size: cover;
+  color: white;
+}
+.swiezaskibka {
+  background: url('/swiezaskibkaBackground.jpg') center;
+  background-size: cover;
+}

@@ -1,0 +1,30 @@
+.propertyContainer {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+}
+.propertySquare {
+  margin: 20px auto;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #45474a;
+  transform: rotate(45deg);
+}
+.propertyIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  color: #ffffff;
+}
+.propertyText {
+  margin: 8px 0;
+  color: #45474a;
+  font-weight: bold;
+}
+
+.propertyDescription {
+  font-size: 0.7rem;
+  color: #646668;
+}

@@ -1,0 +1,16 @@
+.header {
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url('/banner.jpg');
+  background-position-x: center;
+  background-size: cover;
+}
+
+.headerText {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

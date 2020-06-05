@@ -1,0 +1,25 @@
+.aboutMeContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutMePropertiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: space-around;
+}
+.aboutMeImage {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 214px;
+}
+
+.aboutMeInfo {
+  margin: 8px;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: #45474a;
+  font-weight: bold;
+}
