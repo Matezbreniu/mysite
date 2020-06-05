@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-import Contact from './Contact';
+import Skills from './Skills';
 
 function Main() {
   return (
@@ -15,7 +15,7 @@ function Main() {
       >
         <AboutMe />
         <Projects />
-        <Contact />
+        <Skills />
       </div>
     </main>
   );

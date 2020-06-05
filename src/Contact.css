@@ -1,0 +1,46 @@
+.contactContainer {
+  width: 100%;
+}
+
+.contact {
+  position: relative;
+  margin: 10px 0;
+  text-align: left;
+  overflow: hidden;
+  color: #2e94cf;
+}
+
+.contactDescription {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  width: 100%;
+  transition: 0.3s;
+  transform: translateY(-50%);
+  color: #45474a;
+  z-index: -1;
+}
+
+@media (min-width: 760px) {
+  .contactContainer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 60%;
+    transform: translateY(-50%);
+  }
+  .contactDescription {
+    left: -200%;
+  }
+}
+.contactIcon {
+  background-color: #fff;
+}
+
+.contact:hover .contactDescription {
+  left: 40px;
+}
+
+.contact path:hover .contactDescription {
+  left: 40px;
+}

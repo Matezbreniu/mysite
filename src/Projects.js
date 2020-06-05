@@ -29,7 +29,7 @@ function Projects() {
     },
   ];
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <SectionTitle title='Projekty' />
       <div className='projectsContainer'>
         {projectsList.map((project) => (

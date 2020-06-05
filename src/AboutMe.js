@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import Property from './Property';
+import Contact from './Contact';
 import './AboutMe.css';
 
 function AboutMe() {
@@ -28,7 +29,7 @@ function AboutMe() {
   ];
 
   return (
-    <section className='aboutMe'>
+    <section className='aboutMe' id='aboutMe'>
       <SectionTitle title='O mnie' />
       <div className='aboutMeContainer'>
         <div className='aboutMePropertiesContainer'>
@@ -36,7 +37,10 @@ function AboutMe() {
             <Property key={property.name} property={property} />
           ))}
         </div>
-        <img className='aboutMeImage' src='/meBg.png' alt='Mateusz Bręk' />
+        <div className='aboutMeImageAndContactContainer'>
+          <Contact />
+          <img className='aboutMeImage' src='/meBg.png' alt='Mateusz Bręk' />
+        </div>
         <div className='aboutMeInfo'>To ja</div>
 
         <div
@@ -51,7 +55,6 @@ function AboutMe() {
           poznawać języki front-endu, zafascynowało mnie to, że wszystko można
           zaprojektować i zmieniać według własnych upodobań.
         </div>
-        <div className='skills'></div>
       </div>
     </section>
   );

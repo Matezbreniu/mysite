@@ -1,0 +1,24 @@
+.link {
+  display: block;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 15px;
+  border: 2px #ffffff solid;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.swiezaskibka .link {
+  border-color: black;
+  color: black;
+}
+
+.link:hover {
+  background-color: #2e94cf;
+  border-color: #2e94cf;
+  color: white;
+  border-radius: 2px;
+}

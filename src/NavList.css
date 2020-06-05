@@ -1,0 +1,125 @@
+.navContainer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #45474a;
+  color: white;
+  z-index: 2;
+  border-bottom: 3px solid #ffffff;
+}
+
+.navList {
+  position: absolute;
+  display: flex;
+  top: 50px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  height: 0;
+  font-size: 1.2rem;
+  align-items: left;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #45474a;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 0.3s;
+}
+
+@media (min-width: 768px) {
+  .navList {
+    top: 0;
+    flex-direction: row;
+    height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .navList.active {
+    height: 200px;
+  }
+}
+
+.navItem {
+  margin: 5px 15px;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.navItem.activeSection .navLink {
+  color: #2e94cf;
+  font-weight: bold;
+}
+
+.navLink {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navBurger {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .navBurger {
+    display: none;
+  }
+}
+.navBurgerLine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.navBurgerLine:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.navBurgerLine:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.active .navBurgerLine {
+  background-color: transparent;
+}
+
+.active .navBurgerLine:before {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.active .navBurgerLine:after {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
