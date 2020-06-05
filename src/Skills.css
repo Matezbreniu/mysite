@@ -1,0 +1,33 @@
+.skillsContainer {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skillsText {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.skill {
+  margin: 10px 0;
+  text-align: center;
+  width: 30%;
+  color: #2e94cf;
+  cursor: pointer;
+}
+
+.skillName {
+  color: #45474a;
+}
+
+.skillSvg,
+.skillName {
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .skill {
+    width: 18%;
+  }
+}

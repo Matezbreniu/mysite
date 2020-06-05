@@ -41,19 +41,16 @@ function AboutMe() {
           <Contact />
           <img className='aboutMeImage' src='/meBg.png' alt='Mateusz Bręk' />
         </div>
-        <div className='aboutMeInfo'>To ja</div>
-
-        <div
-          style={{
-            textAlign: 'center',
-          }}
-          className='aboutMeDescrpiton'
-        >
-          Spełniam się grając od dziesięciu lat zawodowo w koszykówkę. Od dawna
-          komputery były moją pasją, lecz dopiero w 2018 roku zapragnąłem bliżej
-          poznać działanie internetu od strony technicznej. Zacząłem się uczyć i
-          poznawać języki front-endu, zafascynowało mnie to, że wszystko można
-          zaprojektować i zmieniać według własnych upodobań.
+        <div className='aboutMeInfoContainer'>
+          <div className='aboutMeInfo'> To ja</div>
+          <div className='aboutMeDescrpiton'>
+            Spełniam się grając od dziesięciu lat zawodowo w koszykówkę. Od
+            dawna komputery były moją pasją, lecz dopiero w 2018 roku
+            zapragnąłem bliżej poznać działanie internetu od strony technicznej.
+            Zacząłem się uczyć i poznawać języki front-endu, zafascynowało mnie
+            to, że wszystko można zaprojektować i zmieniać według własnych
+            upodobań.
+          </div>
         </div>
       </div>
     </section>

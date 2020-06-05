@@ -28,3 +28,9 @@
   font-size: 0.7rem;
   color: #646668;
 }
+
+@media (min-width: 768px) {
+  .propertyContainer {
+    width: 22%;
+  }
+}

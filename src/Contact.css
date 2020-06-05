@@ -21,12 +21,12 @@
   z-index: -1;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1024px) {
   .contactContainer {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 60%;
+    width: 260px;
     transform: translateY(-50%);
   }
   .contactDescription {
