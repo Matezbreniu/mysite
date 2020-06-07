@@ -36,11 +36,11 @@
   color: white;
 }
 .sportregeneracja {
-  background: url('/images/sportregeneracjaBackground.jpg') center;
+  background: url('mysite/images/sportregeneracjaBackground.jpg') center;
   background-size: cover;
   color: white;
 }
 .swiezaskibka {
-  background: url('/images/swiezaskibkaBackground.jpg') center;
+  background: url('mysite/images/swiezaskibkaBackground.jpg') center;
   background-size: cover;
 }
