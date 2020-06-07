@@ -11,7 +11,7 @@ function Projects() {
       description: 'Aplikacja pogodowa z wykorzystaniem API',
       technology: 'React.js',
       siteLink: 'dsaasd',
-      repositoryLink: 'dsadsa',
+      repositoryLink: 'https://github.com/Matezbreniu/WeatherApp',
     },
     {
       name: 'Sportregeneracja.com',
@@ -26,7 +26,7 @@ function Projects() {
       description: 'Formularz zamówień dla dostawcy pieczywa',
       technology: 'React.js',
       siteLink: 'https://www.swiezaskibka.pl',
-      repositoryLink: 'dsadsa',
+      repositoryLink: 'https://github.com/Matezbreniu/swiezaskibka.pl',
     },
   ];
   return (
