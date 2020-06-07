@@ -43,7 +43,7 @@ function AboutMe() {
             <div className='aboutMeImageAndInfoContainer swipeFromRight'>
               <img
                 className='aboutMeImage'
-                src='/public/images/meBg.png'
+                src='/images/meBg.png'
                 alt='Mateusz Bręk'
               />
               <div className='aboutMeInfoContainer'>
