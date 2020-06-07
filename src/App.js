@@ -10,7 +10,7 @@ function App() {
       <Header />
       <NavList />
       <Main />
-      <footer></footer>
+      <footer className='footer'>Created by Mateusz Bręk</footer>
     </div>
   );
 }

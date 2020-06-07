@@ -55,24 +55,26 @@ class Skills extends Component {
   render() {
     return (
       <section id='skills'>
-        <Sectiontitle title='Umiejetności' />
-        <div className='skillsText'>{this.state.text}</div>
-        <div className='skillsContainer'>
-          {this.skillsList.map((skill) => (
-            <div
-              onClick={this.handleClick}
-              skillname={skill.name}
-              key={skill.name}
-              className='skill'
-            >
-              <FontAwesomeIcon
-                style={{height: '80%', width: '80%'}}
-                className='skillSvg'
-                icon={skill.icon}
-              />
-              <div className='skillName'>{skill.name}</div>
-            </div>
-          ))}
+        <div className='wrapper'>
+          <Sectiontitle title='Umiejętności' id='Skills' />
+          <div className='skillsText'>{this.state.text}</div>
+          <div className='skillsContainer'>
+            {this.skillsList.map((skill) => (
+              <div
+                onClick={this.handleClick}
+                skillname={skill.name}
+                key={skill.name}
+                className='skill swipeFromBottom'
+              >
+                <FontAwesomeIcon
+                  style={{height: '80%', width: '80%'}}
+                  className='skillSvg'
+                  icon={skill.icon}
+                />
+                <div className='skillName'>{skill.name}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     );

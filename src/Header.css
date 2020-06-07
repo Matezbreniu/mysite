@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
-  background-attachment: fixed;
-  background-image: url('/banner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/banner.jpg') fixed;
   background-position-x: center;
   background-size: cover;
 }
@@ -13,4 +13,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: white;
+}
+
+.headerText h1 {
+  font-size: 3rem;
+}
+
+.headerText h3 {
+  font-size: 1.5rem;
 }

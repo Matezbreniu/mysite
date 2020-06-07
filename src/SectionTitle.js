@@ -4,8 +4,10 @@ import './SectionTitle.css';
 function SectionTitle(props) {
   return (
     <>
-      <h2 className='title'>{props.title}</h2>
-      <div className='bar'></div>
+      <h2 id={`title${props.id}`} className='title swipeFromRight'>
+        {props.title}
+      </h2>
+      <div className='bar swipeFromRight'></div>
     </>
   );
 }

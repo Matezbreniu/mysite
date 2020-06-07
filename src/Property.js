@@ -10,9 +10,9 @@ import './Property.css';
 
 function Property(props) {
   return (
-    <div className='propertyContainer'>
+    <div className='propertyContainer swipeFromLeft'>
       <div className='propertySquare'>
-        <div className='propertyIcon'>
+        <div className='propertyIcon fadeIn'>
           {props.property.icon === 'faLaptopHouse' && (
             <FontAwesomeIcon
               style={{

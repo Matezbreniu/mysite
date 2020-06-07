@@ -46,7 +46,7 @@ function Contact() {
     <div className='contactContainer'>
       {contactList.map((contact) => {
         return (
-          <div key={contact.platform} className='contact'>
+          <div key={contact.platform} className='contact swipeFromLeft'>
             <FontAwesomeIcon
               style={{width: 30, height: 30}}
               className='contactIcon'

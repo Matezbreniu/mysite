@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import Project from './Project';
+import './Projects.css';
 
 function Projects() {
   const projectsList = [
@@ -30,11 +31,13 @@ function Projects() {
   ];
   return (
     <section className='projects' id='projects'>
-      <SectionTitle title='Projekty' />
-      <div className='projectsContainer'>
-        {projectsList.map((project) => (
-          <Project key={project.name} project={project} />
-        ))}
+      <div className='wrapper'>
+        <SectionTitle title='Projekty' id='Projects' />
+        <div className='projectsContainer'>
+          {projectsList.map((project) => (
+            <Project key={project.name} project={project} />
+          ))}
+        </div>
       </div>
     </section>
   );

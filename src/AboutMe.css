@@ -9,16 +9,20 @@
   align-items: space-around;
   justify-content: space-around;
 }
-.aboutMeImageAndContactContainer {
+.aboutMeContactAndInfoContainer {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
+  justify-content: flex-end;
   text-align: center;
   width: 100%;
 }
 
 .aboutMeImage {
-  margin: 0 auto;
+  margin: 0 15px;
   width: 100%;
   max-width: 214px;
+  text-align: right;
 }
 
 .aboutMeInfo {
@@ -29,19 +33,15 @@
   font-weight: bold;
 }
 
-.aboutMeInfoContainer {
-  text-align: center;
-}
-
 @media (min-width: 768px) {
-  .aboutMeImageAndContactContainer {
-    width: 45%;
-    text-align: right;
-  }
   .aboutMeInfoContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 45%;
+  }
+  .aboutMeImageAndInfoContainer {
+    display: flex;
+    justify-content: flex-end;
   }
 }

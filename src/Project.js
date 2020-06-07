@@ -4,7 +4,7 @@ import './Project.css';
 
 function Project(props) {
   return (
-    <div className={props.project.class + ' projectContainer'}>
+    <div className={`${props.project.class} projectContainer fadeIn`}>
       <h3 className='projectName'>{props.project.name}</h3>
       <div className='projectDescription'>{props.project.description}</div>
       <div className='projectTechnology'>{props.project.technology}</div>
