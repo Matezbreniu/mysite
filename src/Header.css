@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('mysite/images/banner.jpg') fixed;
+    url('/images/banner.jpg') fixed;
   background-position-x: center;
   background-size: cover;
 }
